@@ -39,11 +39,15 @@ docker push mental/jre
 Result
 
 ```
-The push refers to a repository [docker.io/mental/base]
-26b126eb8632: Mounted from library/ubuntu 
-220d34b5f6c9: Mounted from library/ubuntu 
-8a5132998025: Mounted from library/ubuntu 
-aca233ed29c3: Mounted from library/ubuntu 
-e5d2f035d7a4: Mounted from library/ubuntu 
-latest: digest: sha256:af8cd9ae1c85466b8e77005231850c5f2ae949e8d53c866c7bb393edfdbddabe size: 1357
+c920e43f77ca: Pushed 
+d6ef77c14c7b: Pushing [==>                                                ]  6.512MB/136.3MB
+171d37ccaf8f: Layer already exists 
+2350b4ac2b87: Layer already exists 
+5dde57d0859d: Layer already exists 
+64c68267c60a: Layer already exists 
+26b126eb8632: Layer already exists 
+220d34b5f6c9: Layer already exists 
+8a5132998025: Layer already exists 
+aca233ed29c3: Layer already exists 
+e5d2f035d7a4: Layer already exists 
 ```
