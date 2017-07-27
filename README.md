@@ -1,4 +1,4 @@
-#Base JRE image
+# Base JRE image
 Version openjdk:8u141-jre
 
 #### Versiyonlar ubuntuya göre değiştirildi.
