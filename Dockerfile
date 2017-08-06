@@ -98,5 +98,10 @@ RUN /var/lib/dpkg/info/ca-certificates-java.postinst configure
 #   https://github.com/docker-library/openjdk/issues
 
 
+ADD /keystore /etc/keystore
+
+RUN $JAVA_HOME/bin/keytool -import -alias localhost -file "/etc/keystore/thekeystore.crt" \
+   -keystore "$JAVA_HOME/lib/security/cacerts" -storepass changeit -noprompt
+
 
 
